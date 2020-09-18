@@ -1,0 +1,1 @@
+Qt Designer is in C:\Users\O'Schell wokspace\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\pyqt5_tools\Qt\bin

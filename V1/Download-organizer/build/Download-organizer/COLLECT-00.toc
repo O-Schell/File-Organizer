@@ -1,0 +1,60 @@
+([('Download-organizer.exe',
+   "C:\\Users\\O'Schell wokspace\\Google Drive\\Famille\\Schell\\Gaby\\For "
+   'fun\\Scripts\\build\\Download-organizer\\Download-organizer.exe',
+   'EXECUTABLE'),
+  ('Download-organizer.exe.manifest',
+   "C:\\Users\\O'Schell wokspace\\Google Drive\\Famille\\Schell\\Gaby\\For "
+   'fun\\Scripts\\build\\Download-organizer\\Download-organizer.exe.manifest',
+   'BINARY'),
+  ('python37.dll',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\python37.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_socket',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('select',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   "c:\\users\\o'schell "
+   'wokspace\\appdata\\local\\programs\\python\\python37-32\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('base_library.zip',
+   "C:\\Users\\O'Schell wokspace\\Google Drive\\Famille\\Schell\\Gaby\\For "
+   'fun\\Scripts\\build\\Download-organizer\\base_library.zip',
+   'DATA')],)
