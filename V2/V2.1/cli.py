@@ -1,25 +1,3 @@
-"""
-import sys
-import os
-from inspect import currentframe, getframeinfo
-from pathlib import Path
-filename = getframeinfo(currentframe()).filename
-parent = Path(filename).resolve().parent
-if parent in sys.path:
-    print("current path is already in sys.path")
-else:
-    print("current path isn't already in sys.path and is added")
-    sys.path.append(parent)
-
-
-from pprint import pprint as p
-print(sys.path)
-print(os.getcwd())
-a='lib.py' in os.listdir()
-print(a)
-"""
-
-
 import getpass
 import os
 import sys

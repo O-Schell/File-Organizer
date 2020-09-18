@@ -1,6 +1,9 @@
 import threading
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 from lib import organize_folder
+
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -11,28 +14,21 @@ class MainWindow(QtWidgets.QMainWindow):
         super(MainWindow, self).__init__(parent)
         self.setWindowTitle(self.tr("File-Organizer"))
         font = QtGui.QFont()
-        font.setFamily("Panton Light Caps")
+        font.setFamily("Yu Gothic UI")
         font.setPointSize(20)
 
         self.title = QtWidgets.QLabel(
             self.tr("Welcome into File-Organizer !"), alignment=QtCore.Qt.AlignCenter
         )
         self.title.setFont(font)
-        self.Title.setGeometry(QtCore.QRect(200, 0, 450, 60))
 
         self.button = QtWidgets.QPushButton(self.tr("Select your folder"))
-        self.button.setGeometry(QtCore.QRect(320, 80, 160, 40))
-        self.Title.setAlignment(QtCore.Qt.AlignCenter)
         font.setPointSize(12)
-        self.Selectyourfolderbutton = QtWidgets.QPushButton(self.centralwidget)
-        self.Selectyourfolderbutton.setGeometry(QtCore.QRect(320, 80, 160, 40))
         self.button.setFont(font)
         self.button.setFixedSize(160, 40)
 
         self.progressbar = QtWidgets.QProgressBar()
-        self.progressbar.setFixedSize(300, 40)
-        self.progressBar.setGeometry(QtCore.QRect(50, 150, 700, 20))
-        
+        self.progressbar.setFixedSize(500, 50)
 
         central_widget = QtWidgets.QWidget()
         self.setCentralWidget(central_widget)
@@ -40,7 +36,7 @@ class MainWindow(QtWidgets.QMainWindow):
         lay = QtWidgets.QVBoxLayout(central_widget)
         lay.setContentsMargins(0, 10, 0, 0)
         lay.setSpacing(60)
-        lay.addWidget(self.title)
+        lay.addWidget(self.title, alignment=QtCore.Qt.AlignCenter)
         lay.addWidget(self.button, alignment=QtCore.Qt.AlignCenter)
         lay.addWidget(self.progressbar, alignment=QtCore.Qt.AlignCenter)
         lay.addStretch()
@@ -81,6 +77,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     w = MainWindow()
     w.show()
