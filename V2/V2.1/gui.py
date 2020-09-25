@@ -1,5 +1,7 @@
 import threading
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 from lib import organize_folder
 
 
@@ -27,9 +29,11 @@ class MainWindow(QtWidgets.QMainWindow):
         self.button.setFont(font)
         self.button.setFixedSize(160, 40)
 
-        self.progressbar = QtWidgets.QProgressBar()
-        self.progressbar.setFixedSize(300, 40)
+        self.progressbar = QtWidgets.QProgressBar(alignment=QtCore.Qt.AlignCenter)
+        self.progressbar.setFixedSize(300, 30)
         self.progressbar.setGeometry(50, 1500, 700, 20)
+        #self.progressbar.setGeometry(200, 0, 450, 60)
+        
 
         central_widget = QtWidgets.QWidget()
         self.setCentralWidget(central_widget)
@@ -37,12 +41,12 @@ class MainWindow(QtWidgets.QMainWindow):
         lay = QtWidgets.QVBoxLayout(central_widget)
         lay.setContentsMargins(0, 10, 0, 0)
         lay.setSpacing(60)
-        lay.addWidget(self.title)
+        lay.addWidget(self.title, alignment=QtCore.Qt.AlignCenter)
         lay.addWidget(self.button, alignment=QtCore.Qt.AlignCenter)
         lay.addWidget(self.progressbar, alignment=QtCore.Qt.AlignCenter)
-        lay.addStretch()
+        #lay.addStretch()
 
-        self.resize(800, 200)
+        self.resize(800, 400)
 
         self.button.clicked.connect(self.onClicked)
         self.started.connect(self.onStarted)
