@@ -7,7 +7,7 @@ The code must be:
 - it to easily readible by everyone - Unless there is no other way, prioritise readibility on performance.
 - clear and organized - Use and abuse of prettifier.
 
-##DESIGN
+## DESIGN
 When adding design to it, it must be:
 - minimalist - As less as we need; Simple, fast and smooth UI animation.
 or
