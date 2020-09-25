@@ -1,7 +1,15 @@
 # File-Organizer
 
-The aim of the File Organizer Project is to create a programm in python a programm that organize file by their extension in sub-directory.
-There a few more things that a want to do for this project:
-1. I want it to easily readible by everyone. The code must be clear clear and organized. No super-advenced code, bar if there is no other way to do it
-2. I want to have a minimalistic design and some gradient design. If we can, play with some animation
+The aim of the File Organizer Project is to create a programm in python that organize file by their extension in sub-directory.
+There a few more things that I want to be clear about for this project:
+## CODE
+The code must be:
+- it to easily readible by everyone - Unless there is no other way, prioritise readibility on performance.
+- clear and organized - Use and abuse of prettifier.
+
+##DESIGN
+When adding design to it, it must be:
+- minimalist - As less as we need; Simple, fast and smooth UI animation.
+or
+- gradient/fluid - Colors must mixe perfectly and only used for loading/waiting animation
 
