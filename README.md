@@ -1,6 +1,6 @@
 # File-Organizer
 
-![GitHub last commit](https://img.shields.io/github/last-commit/O-Schell/File-Organizer?color=blue&style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/O-Schell/File-Organizer?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/O-Schell/File-Organizer?color=blue&style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/O-Schell/File-Organizer?style=flat-square) ![GitHub language count](https://img.shields.io/github/languages/count/O-Schell/File-Organizer?style=flat-square)
 
 The aim of the File Organizer Project is to create a programm in python that organize file by their extension in sub-directory.
 There a few more things that I want to be clear about for this project:
